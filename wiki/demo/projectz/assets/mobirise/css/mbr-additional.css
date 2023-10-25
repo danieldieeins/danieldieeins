@@ -1693,8 +1693,24 @@ a {
 .cid-tTEUOUUoQO .mbr-text {
   color: #ffffff;
 }
-.cid-tTFc7Dz0r0 {
+.cid-tTFAJpkqFR {
   padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #0d0d0d;
+}
+.cid-tTFAJpkqFR blockquote {
+  border-color: #1175ff;
+  border-radius: 4px;
+  background-color: #232323;
+}
+.cid-tTFAJpkqFR .mbr-section-title {
+  color: #1175ff;
+}
+.cid-tTFAJpkqFR .mbr-text {
+  color: #cccccc;
+}
+.cid-tTFc7Dz0r0 {
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #0d0d0d;
 }
@@ -3196,6 +3212,12 @@ a {
 }
 .cid-tTFs6NBmy1 .wsSearchNoResults {
   color: #ff2424;
+}
+.cid-tTFs6NBmy1 .wsSearchResultTemplateBody {
+  color: #bbbbbb;
+}
+.cid-tTFs6NBmy1 .wsSearchResultTemplateHeader {
+  color: #1175ff;
 }
 .cid-tTFrJg9po2 {
   padding-top: 4rem;
