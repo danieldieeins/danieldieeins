@@ -39,7 +39,7 @@ body {
 
 .menu img:hover {
     pointer-events: none;
-    animation: rotate 2s linear infinite;
+    animation: rotate 0.1s linear infinite;
 }
 
 .menu span {
@@ -52,7 +52,7 @@ body {
 
 .menu span:hover {
     color: tomato;
-    animation: animate 0.5s linear infinite;
+    animation: animate 2s linear infinite;
 }
 
 @keyframes rotate {
