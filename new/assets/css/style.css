@@ -55,6 +55,10 @@ body {
     animation: animate 2s linear infinite;
 }
 
+.menu .buttons span:hover {
+    animation: none;
+}
+
 @keyframes rotate {
     0% { transform: rotate(0deg); }
     1% { transform: rotate(3.6deg); }
