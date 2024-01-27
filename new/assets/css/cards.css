@@ -46,7 +46,7 @@ p {
     width: 350px;
     background: tomato;
     border-radius: 15px;
-    z-index: -1; 
+    z-index: -1;
     transition: 0.3s;
     animation: animate 2s linear infinite;
 }
@@ -76,7 +76,7 @@ p {
 }
 
 .animated-card2:hover::before {
-    background: #fff;
+    background: tomato;
     animation: animate2 2s linear infinite;
 }
 
@@ -89,9 +89,9 @@ p {
 }
 
 @keyframes animate2 {
-    /*50% {
+    50% {
         filter: hue-rotate(350deg)
-    }*/
+    }
     from {
         transform: rotate(0deg);
     } to {
