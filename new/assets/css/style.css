@@ -12,6 +12,7 @@
 
 body {
     overflow: hidden;
+    background: #1f1f1f;
 }
 
 #head-menu {
@@ -164,7 +165,6 @@ body {
 #content {
     height: calc(100vh - 4rem);
     width: 100%;
-    background: #1f1f1f;
 }
 
 #content.active {
