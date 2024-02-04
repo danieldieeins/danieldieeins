@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 2.5rem;
+}
+
+.card {
+    position: relative;
+    background: #0d0d0d;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    color: #ffffff90;
+    box-shadow: 0 0 0.8rem #000;
+}
+
+.card * {
+    padding: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    padding: 0;
+    color: inherit;
+}
+
+.card a:hover {
+    color: #ffffff50;
+    transition: 0.25s;
+}
+
+.card h1 {
+    color: #fff;
+}
+
+.card h2 {
+    color: #ffffff96;
+}
+
+.card h3 {
+    font-weight: 1;
+}
+
+.card .background {
+    background: black;
+    color: white;
+}
+
+.card .background-top {
+    background: black;
+    color: white;
+
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.card .background-inherit {
+    background: black;
+    color: white;
+    border-radius: inherit;
+}
+
+.card .background-top-bottom {
+    background: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+.card .background-bottom {
+    background: black;
+    color: white;
+
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 0.45rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: none;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background: #00000000;
+    border: none;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #ffffff50;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

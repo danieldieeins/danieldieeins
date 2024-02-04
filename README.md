@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hello there 👋<br>I'm Danny (19) from Germany
+Hello there 👋<br>I'm Danny (20yo) from Germany
 
 
 ## 🌐 Socials:
