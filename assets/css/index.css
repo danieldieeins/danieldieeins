@@ -2,9 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI Regular Local', Tahoma, Geneva, Verdana, sans-serif;
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+@font-face {
+    font-family: 'Segoe UI Regular Local';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../segoeui/Segoe UI.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('../segoeui/Segoe UI Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('../segoeui/Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('../segoeui/Segoe UI Bold Italic.woff') format('woff');
 }
 
 *::-webkit-scrollbar{
