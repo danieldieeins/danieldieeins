@@ -12,7 +12,7 @@
 
 body {
     overflow: hidden;
-    background: #1f1f1f;
+    background: #0d0d0d;
 }
 
 #head-menu {
@@ -83,6 +83,11 @@ body {
 
 #head-menu #sub-menu ul {
     padding-bottom: 1rem;
+}
+
+#head-menu #sub-menu ul li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #head-menu #sub-menu ul li {
@@ -169,6 +174,8 @@ body {
 #content {
     height: calc(100vh - 4rem);
     width: 100%;
+
+    background: #1f1f1f;
 }
 
 #content.active {
