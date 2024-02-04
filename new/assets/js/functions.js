@@ -22,3 +22,15 @@ function deactivateMenu() {
     document.getElementById("sub-menu").classList.remove("active");
     document.getElementById("content").classList.remove("active");
 }
+
+function link(url) {
+    window.open(url);
+}
+
+function link_(url) {
+    window.open(url,'_blank');
+}
+
+function open_(url) {
+    document.getElementById("content").src = url;
+}
