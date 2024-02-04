@@ -4,146 +4,127 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: #111;
-}
 
-.menu {
-    position: absolute;
-    top: 1rem;
 
-    background: #000;
-    opacity: 0.9;
-    padding: 1rem;
-    padding-bottom: 1.3rem;
-    border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transition: 0.5s;
-}
-
-.menu img {
-    position: relative;
-    top: 0.5rem;
-    padding-right: 0.5rem;
-    height: 50px;
-}
-
-.menu img:hover {
-    pointer-events: none;
-    animation: rotate 0.1s linear infinite;
-}
-
-.menu span {
+#head-menu {
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-shadow: 0 0 0.8rem #000;
+    background: black;
     color: #fff;
-    position: relative;
-    bottom: 0.25rem;
-    font-weight: 1000;
-    font-size: 2.5rem;
-    transition: 2s;
+
+    width: 18.75rem;
+    height: 4rem;
+
+    display: none;
 }
 
-.menu span:hover {
-    font-size: 10rem;
-    /*animation: animate 2s linear infinite;*/
+#head-menu.active {
+    display: inherit;
 }
 
-.menu .buttons span:hover {
-    animation: none;
-}
-
-@keyframes rotate {
-    100% { transform: rotate(360deg); }
-}
-
-@keyframes animate {
-    50% {
-        filter: hue-rotate(350deg)
-    }
-}
-
-.menu .buttons {
-    display: inline;
-    padding-left: 10rem;
-}
-
-.menu .buttons.visible {
-    padding-top: 1rem;
-    padding-left: 0rem;
+#head-menu .title {
     display: flex;
 }
 
-.menu .buttons span {
-    font-weight: 100;
-    font-size: 2rem;
-}
-
-.menu span.toggle a {
-    color: #fff;
-    padding-left: 2rem;
-    padding-right: 1rem;
-}
-
-@media (max-width: 1009px) {
-    .menu .buttons {
-        display: none;
-    }
-
-    .menu .toggle {
-        display: inline;
-    }
-}
-  
-@media (min-width: 1010px) {
-    .menu .buttons {
-        display: inline;
-    }
-
-    .menu .buttons.visible {
-        display: inline;
-    }
-
-
-    .menu .toggle {
-        display: none;
-    }
-}
-
-a.button {
-    text-decoration: none;
-    background: #000;
-    color: #fff;
-    border-radius: 5px;
+#head-menu .title img {
     padding: 0.75rem;
-    box-shadow: 0 0 0.25rem #000;
-    transition: 0.1s;
+    height: 2.5rem;
 }
 
-a.button#discord:hover {
-    color: #6562ff;
+#head-menu .title h1 {
+    padding: 0.5rem;
 }
 
-a.button#linktree:hover {
-    color: #07ff77;
+#head-menu .sub-menu {
+    height: calc(100vh - 4rem);
+    width: calc(100% - 1.7rem);
+
+    background: #0d0d0d;
+    box-shadow: 0 0 0.8rem #000;
 }
 
-a.button#b:hover {
-    color: #e2ff62;
+#head-menu .sub-menu ul li {
+    padding: 1rem 1rem 0 1rem;
 }
 
-a.button:hover {
-    font-size: larger;
-    box-shadow: 0 0 0.375rem;
+#head-menu .sub-menu ul li .menu-item {
+    position: relative;
+    padding: 1.25rem;
+    background: black;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.8rem black;
 }
 
-a.invisible {
-    text-decoration: none;
+#head-menu .sub-menu ul li .menu-item span {
+    position: absolute;
+    left: 3rem;
+    top: 0.45rem;
+    font-size: 1.1rem;
+}
+
+#head-menu .sub-menu ul li .menu-item i {
+    position: absolute;
+    left: 0.55rem;
+    top: 0.535rem;
+    font-size: 1.5rem;
+}
+
+#head-menu .sub-menu ul li .menu-item:hover {
+    background: linear-gradient(to bottom right, white, #f0cbff);
+    box-shadow: 0 0 0.8rem white;
+    cursor: pointer;
+    color: black;
+}
+
+#head-menu .sub-menu ul li .menu-item#twitch:hover {
+    background: linear-gradient(to bottom right, rebeccapurple, mediumpurple);
+    box-shadow: 0 0 0.8rem rebeccapurple;
+    color: white;
+}
+
+#head-menu .sub-menu ul li .menu-item#youtube:hover {
+    background: linear-gradient(to bottom right, red, darkred);
+    box-shadow: 0 0 0.8rem red;
+    color: white;
+}
+
+#head-menu .sub-menu ul li .menu-item#youtube2:hover {
+    background: linear-gradient(to bottom right, indianred, #d93131);
+    box-shadow: 0 0 0.8rem indianred;
+    color: white;
+}
+
+#head-menu .sub-menu ul li .menu-item#youtube3:hover {
+    background: linear-gradient(to bottom right, mediumpurple, indianred);
+    box-shadow: 0 0 0.8rem #692c5e;
+    color: white;
+}
+
+#head-menu .sub-menu ul li .menu-item#discord:hover {
+    background: linear-gradient(to bottom right, mediumpurple, #5865F2);
+    box-shadow: 0 0 0.8rem #5865F2;
+    color: white;
+}
+
+#head-menu .sub-menu ul li .menu-item#bluesky:hover {
+    background: linear-gradient(to bottom right, cornflowerblue, #0884fc);
+    box-shadow: 0 0 0.8rem #0884fc;
+    color: white;
+}
+
+#head-menu .sub-menu ul li .menu-item#x:hover {
+    background: linear-gradient(to bottom right, white, #8d8d8d);
+    box-shadow: 0 0 0.8rem white;
+    color: black;
+}
+
+#head-menu .sub-menu ul li .menu-item#instagram:hover {
+    background: linear-gradient(to bottom right, #833AB4,#E1306C,#FFDC80);
+    box-shadow: 0 0 0.8rem #E1306C;
+    color: white;
+}
+
+#head-menu.active {
+
 }
