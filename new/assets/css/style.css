@@ -16,11 +16,12 @@ body {
 }
 
 #head-menu {
+    user-select: none;
     width: 100%;
     background: black;
     color: #fff;
     box-shadow: 0 0 0.8rem #000;
-    height: 4rem;
+    height: 4em;
 }
 
 #head-menu i#toggle {
@@ -110,8 +111,8 @@ body {
 #head-menu #sub-menu ul li .menu-item:hover {
     background: linear-gradient(to bottom right, white, #f0cbff);
     box-shadow: 0 0 0.8rem white;
-    cursor: pointer;
     color: black;
+    cursor: pointer;
 }
 
 #head-menu #sub-menu ul li .menu-item#twitch:hover {
