@@ -65,6 +65,7 @@ body {
 }
 
 #head-menu.active #sub-menu.active {
+    top: 1.5rem;
     position: relative;
     width: calc(100% - 2rem);
 }
