@@ -126,6 +126,7 @@ body {
     box-shadow: 0 0 0.8rem white;
     color: black;
     cursor: pointer;
+    transition: 0.25s;
 }
 
 #head-menu #sub-menu ul li .menu-item#twitch:hover {
@@ -260,4 +261,5 @@ body {
 #footer a:hover {
     color: #fff;
     cursor: pointer;
+    transition: 0.25s;
 }
