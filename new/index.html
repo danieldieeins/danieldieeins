@@ -15,8 +15,9 @@
             <div class="title">
                 <img alt="" src="assets/img/logo.png">
                 <h1>a.nerotv.live</h1>
+                <i id="toggle" class='bx bx-menu' onclick="document.getElementById('sub-menu').classList.toggle('active')"></i>
             </div>
-            <div class="sub-menu">
+            <div id="sub-menu">
                 <ul>
                     <li>
                         <h3>Content:</h3>
@@ -75,6 +76,9 @@
                 </ul>
             </div>
         </div>
+        <div id="content">
+
+        </div>
     </body>
-    <script>checkDevice();</script>
+    <script>checkWindowSize();</script>
 </html>
