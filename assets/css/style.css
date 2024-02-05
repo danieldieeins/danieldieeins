@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI Regular Local', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -37,7 +38,14 @@
 }
 
 body {
-    padding: 2.5rem;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    max-width: 70rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .card {

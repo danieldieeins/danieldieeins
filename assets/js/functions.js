@@ -1,27 +1,42 @@
+const isMobile = /iPhone|iPad|iPod|Android|Windows Phone/i.test(navigator.userAgent);
 window.addEventListener('resize', checkWindowSize);
+document.addEventListener("DOMContentLoaded", function() {
+    checkWindowSize();
+});
 
 function checkWindowSize() {
-    checkURL();
-    if(window.innerWidth > 600) {
+    if(window.innerWidth > 800) {
         activateMenu()
+    } else {
+        deactivateMenu();
+    }
+    checkURL();
+}
+
+function activateMenu() {
+    let headMenu = document.getElementById('head-menu');
+    if (!isMobile) {
+        if(headMenu) {
+            headMenu.classList.add("active");
+            document.getElementById("sub-menu").classList.add("active");
+            document.getElementById("content").classList.add("active");
+        }
     } else {
         deactivateMenu();
     }
 }
 
-function activateMenu() {
-    const isMobile = /iPhone|iPad|iPod|Android|Windows Phone/i.test(navigator.userAgent);
-    if (!isMobile) {
-        document.getElementById("head-menu").classList.add("active");
-        document.getElementById("sub-menu").classList.add("active");
-        document.getElementById("content").classList.add("active");
-    }
-}
-
 function deactivateMenu() {
-    document.getElementById("head-menu").classList.remove("active");
-    document.getElementById("sub-menu").classList.remove("active");
-    document.getElementById("content").classList.remove("active");
+    let headMenu = document.getElementById('head-menu');
+    if(headMenu) {
+        headMenu.classList.remove("active");
+        document.getElementById("content").classList.remove("active");
+        if (isMobile) {
+            document.getElementById("sub-menu").classList.add("active");
+        } else {
+            document.getElementById("sub-menu").classList.remove("active");
+        }
+    }
 }
 
 function checkURL() {
@@ -37,6 +52,12 @@ function checkURL() {
         } else if(s === "lawstuff"||s==="rechtliches") {
             document.title = "a.nerotv.live (impressum & datenschutzerklärung)"
             open_("sub/lawstuff.html");
+        } else if(s==="datenschutzerklärung") {
+            document.title = "a.nerotv.live (impressum & datenschutzerklärung)"
+            open_("sub/lawstuff.html#datenschutzerklärung");
+        } else if(s==="impressum") {
+            document.title = "a.nerotv.live (impressum & datenschutzerklärung)"
+            open_("sub/lawstuff.html#impressum");
         } else if(s === "discord") {
             document.title = "a.nerotv.live (discord)"
             open_("sub/discord.html");
