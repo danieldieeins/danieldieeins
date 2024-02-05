@@ -54,7 +54,7 @@ function checkURL() {
             open_("sub/lawstuff.html#datenschutzerklärung");
         } else if(s==="impressum") {
             document.title = "a.nerotv.live (impressum & datenschutzerklärung)"
-            open_("sub/lawstuff.html#impressum");
+            open_("sub/lawstuff.html");
         } else if(s === "discord") {
             document.title = "a.nerotv.live (discord)"
             open_("sub/discord.html");
