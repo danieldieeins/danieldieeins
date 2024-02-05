@@ -55,6 +55,7 @@ body {
     border-radius: 1rem;
     color: #ffffff90;
     box-shadow: 0 0 0.8rem #000;
+    width: calc(100vh);
 }
 
 .card * {

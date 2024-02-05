@@ -43,10 +43,7 @@ function checkURL() {
     const urlParams = new URLSearchParams(window.location.search);
     if(urlParams.get("s")!=null) {
         const s = urlParams.get('s');
-        if(s === "404") {
-            document.title = "a.nerotv.live (404)"
-            open_("sub/e404.html");
-        } else if(s === "start"||s === "home") {
+        if(s === "start"||s === "home") {
             document.title = "a.nerotv.live (start)"
             open_("sub/start.html");
         } else if(s === "lawstuff"||s==="rechtliches") {
@@ -68,8 +65,8 @@ function checkURL() {
             document.title = "a.nerotv.live (zyneon)"
             open_("https://zyneonstudios.com");
         } else {
-            document.title = "a.nerotv.live (custom link)"
-            open_(s);
+            document.title = "a.nerotv.live (404)"
+            open_("sub/e404.html");
         }
     }
 }
