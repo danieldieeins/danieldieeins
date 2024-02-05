@@ -117,7 +117,11 @@ body {
     overflow-y: auto;
 }
 
-#head-menu #sub-menu ul {
+#head-menu #sub-menu.active ul {
+    padding-bottom: 10rem;
+}
+
+#head-menu.active #sub-menu.active ul {
     padding-bottom: 1rem;
 }
 
