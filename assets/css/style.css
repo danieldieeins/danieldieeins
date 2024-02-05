@@ -44,7 +44,7 @@ body {
 }
 
 .main {
-    max-width: 70rem;
+    max-width: 100vh;
     padding: 0 2rem 0 2rem;
 }
 
