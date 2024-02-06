@@ -64,6 +64,9 @@ function checkURL() {
         } else if(s === "zyneon") {
             document.title = "a.nerotv.live (zyneon)"
             open_("https://zyneonstudios.com");
+        } else if(s === "zyneon") {
+            document.title = "a.nerotv.live (zyneon web app)"
+            open_("https://danieldieeins.github.io/Zyneon-Application/");
         } else {
             document.title = "a.nerotv.live (404)"
             open_("sub/e404.html");
