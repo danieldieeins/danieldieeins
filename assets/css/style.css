@@ -44,7 +44,7 @@ body {
 }
 
 .main {
-    max-width: 100vh;
+    max-width: 98%;
     padding: 0 2rem 0 2rem;
 }
 
@@ -115,6 +115,99 @@ body {
 
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+}
+
+.card#attisander {
+    background-image: url("../img/creator/attisander_ban.jpg");
+    color: white;
+}
+
+.card#black_0mega {
+    background-image: url("../img/creator/omega_ban.jpg");
+    color: white;
+}
+
+.card#fantastico {
+    background-image: url("../img/creator/fantastico_ban.jpg");
+    color: white;
+}
+
+.card#jxhn {
+    background-image: url("../img/creator/jxhn_ban.jpg");
+    color: white;
+}
+
+.card#schleimer {
+    background-image: url("../img/creator/schleimer_ban.jpg");
+    color: white;
+}
+
+.card#schleimer,.card#jxhn,.card#fantastico,.card#black_0mega,.card#attisander {
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    transition: 0.25s;
+}
+
+.card#schleimer:hover,.card#jxhn:hover,.card#fantastico:hover,.card#black_0mega:hover,.card#attisander:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+.card .creator-content {
+    display: flex;
+}
+
+.card .creator-content .img {
+    padding: 0;
+
+    height: 9rem;
+    width: 9rem;
+
+    border-radius: 50%;
+    box-shadow: 0 0 0.8rem #000;
+}
+
+.card .creator-content .img img {
+    padding: 0;
+
+    height: 100%;
+    width: inherit;
+
+    border-radius: 50%;
+}
+
+.card .creator-content .img img:hover, .card .creator-content .cc h1 {
+    cursor: pointer;
+}
+
+.card .creator-content .cc h1 {
+    position: relative;
+    top: -2.5rem;
+    right: 1rem;
+}
+
+.card .creator-content .cc p {
+    position: absolute;
+    line-height: 2.1rem;
+    top: 4.75rem;
+    padding: 0;
+    margin: 0;
+}
+
+a.button {
+    background: black;
+    padding: 0.1rem 0.35rem 0.3rem 0.325rem;
+    border-radius: 0.25rem;
+    color: white;
+    box-shadow: 0 0 0.8rem #000;
+}
+
+a.button:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom right, white, #f0cbff);
+    color: black;
+    box-shadow: 0 0 0.8rem #fff;
 }
 
 ::-webkit-scrollbar {
