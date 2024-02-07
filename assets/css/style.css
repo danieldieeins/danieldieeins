@@ -258,6 +258,15 @@ a.button:hover {
     box-shadow: 0 0 0.8rem #fff;
 }
 
+.card iframe {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 40rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
 ::-webkit-scrollbar {
     width: 0.45rem;
 }
