@@ -49,6 +49,7 @@ body {
 }
 
 .card {
+    max-width: 75rem;
     position: relative;
     background: #0d0d0d;
     margin-bottom: 1.5rem;
@@ -193,6 +194,16 @@ body {
     top: 4.75rem;
     padding: 0;
     margin: 0;
+}
+
+.highlight {
+    color: white;
+    font-weight: 1000;
+}
+
+a.link:hover {
+    cursor: pointer;
+    color: white;
 }
 
 a.button {
