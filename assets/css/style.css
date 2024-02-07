@@ -118,6 +118,21 @@ body {
     border-bottom-left-radius: 1rem;
 }
 
+.card#hell {
+    background-image: url("../img/discord/hell_ban.jpg");
+    color: white;
+}
+
+.card#zyneon {
+    background-image: url("../img/discord/zyneon_ban.png");
+    color: white;
+}
+
+.card#black_0mega {
+    background-image: url("../img/creator/omega_ban.jpg");
+    color: white;
+}
+
 .card#attisander {
     background-image: url("../img/creator/attisander_ban.jpg");
     color: white;
@@ -143,14 +158,14 @@ body {
     color: white;
 }
 
-.card#schleimer,.card#jxhn,.card#fantastico,.card#black_0mega,.card#attisander {
+.card#schleimer,.card#jxhn,.card#fantastico,.card#black_0mega,.card#attisander,.card#hell,.card#zyneon {
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
     transition: 0.25s;
 }
 
-.card#schleimer:hover,.card#jxhn:hover,.card#fantastico:hover,.card#black_0mega:hover,.card#attisander:hover {
+.card#schleimer:hover,.card#jxhn:hover,.card#fantastico:hover,.card#black_0mega:hover,.card#attisander:hover,.card#hell:hover,.card#zyneon:hover {
     transform: scale(1.05);
     transition: 0.25s;
 }
@@ -188,6 +203,23 @@ body {
     right: 1rem;
 }
 
+.card .creator-content .cc h2 {
+    position: relative;
+    top: -1.5rem;
+    left: -1rem;
+
+    font-size: 2rem;
+    color: white;
+}
+
+.card .creator-content .cc h3 {
+    position: relative;
+    font-size: 1rem;
+    top: -2rem;
+    padding: 0;
+    margin: 0;
+}
+
 .card .creator-content .cc p {
     position: absolute;
     line-height: 2.1rem;
@@ -204,6 +236,11 @@ body {
 a.link:hover {
     cursor: pointer;
     color: white;
+}
+
+a.link_:hover {
+    cursor: pointer;
+    color: gray;
 }
 
 a.button {

@@ -63,6 +63,9 @@ function checkURL() {
             open_("sub/creator.html");
         } else if(s === "zyneon") {
             document.title = "a.nerotv.live (zyneon)"
+            open_("sub/zyneon.html");
+        } else if(s === "zyneonweb") {
+            document.title = "a.nerotv.live (zyneon website)"
             open_("https://zyneonstudios.com");
         } else if(s === "zyneonapp") {
             document.title = "a.nerotv.live (zyneon web app)"
