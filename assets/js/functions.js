@@ -78,6 +78,7 @@ function checkURL() {
 }
 
 function link(url) {
+    console.log("[Launcher-Bridge] button.refresh");
     window.open(url, "_self");
 }
 
