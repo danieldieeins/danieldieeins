@@ -86,6 +86,10 @@ function link_(url) {
     window.open(url,'_blank');
 }
 
+function link__(url) {
+    window.location.href = url;
+}
+
 function open_(url) {
     document.getElementById("content").src = url;
     $( "iframe" ).on('load',function() {
