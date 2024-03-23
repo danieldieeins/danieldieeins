@@ -13,6 +13,11 @@
       "id": "cinematica",
       "location": "https://a.nerotv.live/zyndex/instances/1.12.2/cinematica.json",
       "origin": "https://a.nerotv.live/zyndex/index.json",
+      "tags": [
+        "minecraft-1.12.2",
+        "modloder-forge",
+        "forgetype-new"
+      ]
     },
     "resources": {
       "thumbnail": "https://i.ibb.co/R0Mrpx5/cinematica.png"
