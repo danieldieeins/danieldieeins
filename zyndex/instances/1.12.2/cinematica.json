@@ -1,20 +1,25 @@
 {
-  "modpack": {
-    "index": "https://a.nerotv.live/zyndex/index.json",
-    "id": "cinematica",
-    "author": "nerotvlive",
-    "thumbnail": "https://i.ibb.co/R0Mrpx5/cinematica.png",
-    "name": "Cinematica",
-    "version": "2024.3",
-    "description": "Create awesome Minecraft Machinimas!",
-    "minecraft": "1.12.2",
-    "forge": {
-      "version": "14.23.5.2860",
-      "type": "NEW"
+  "instance": {
+    "info": {
+      "author": "nerotvlive",
+      "description": "Create awesome Minecraft Machinimas!",
+      "name": "Cinematica",
+      "version": "2024.3.1"
     },
-    "download": "https://www.dropbox.com/scl/fi/3r2uwusxnxz14o7icri0q/cinematica.zip?rlkey=i6ybcttyyijsaz360wjrlnnt5&dl=1",
-    "instance": "instances/cinematica/",
-    "hidden": "false"
+    "meta": {
+      "download": "https://www.dropbox.com/scl/fi/3r2uwusxnxz14o7icri0q/cinematica.zip?rlkey=i6ybcttyyijsaz360wjrlnnt5&dl=1",
+      "forgeType": "NEW",
+      "isHidden": false,
+      "id": "cinematica",
+      "origin": "https://a.nerotv.live/zyndex/index.json"
+    },
+    "versions": {
+      "forge": "14.23.5.2860",
+      "minecraft": "1.12.2"
+    },
+    "resources": {
+      "thumbnail": "https://i.ibb.co/R0Mrpx5/cinematica.png"
+    }
   },
   "scheme": "2024.3"
 }
