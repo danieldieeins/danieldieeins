@@ -13,12 +13,12 @@
       "id": "cinematica",
       "origin": "https://a.nerotv.live/zyndex/index.json"
     },
+    "resources": {
+      "thumbnail": "https://i.ibb.co/R0Mrpx5/cinematica.png"
+    },
     "versions": {
       "forge": "14.23.5.2860",
       "minecraft": "1.12.2"
-    },
-    "resources": {
-      "thumbnail": "https://i.ibb.co/R0Mrpx5/cinematica.png"
     }
   },
   "scheme": "2024.3"
