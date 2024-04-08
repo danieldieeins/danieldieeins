@@ -10,7 +10,7 @@
       "download": "https://www.dropbox.com/scl/fi/ab1okol4le7fvrefjlm59/projectz-normal.zip?rlkey=5dpy48tnc62s11peu9v4t84yj&dl=1",
       "forgeType": "NEW",
       "id": "nerodex-projectz",
-      "isHidden": false,
+      "isHidden": true,
       "location": "https://a.nerotv.live/zyndex/instances/1.16.5/projectz.json",
       "origin": "https://a.nerotv.live/zyndex/index.json",
       "tags": [
