@@ -1,0 +1,33 @@
+{
+  "instance": {
+    "info": {
+      "author": "nerotvlive",
+      "description": "ProjectZ mit erweiterten Building-Tools",
+      "name": "ProjectZ (Building)",
+      "version": "2024.4-beta.3"
+    },
+    "meta": {
+      "download": "https://drive.zyneonstudios.com/index.php/s/dXYdd42Sn3pGCwK/download",
+      "forgeType": "NEW",
+      "id": "nerodex-projectz-building",
+      "isHidden": false,
+      "location": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances/1.16.5/projectz-building.json",
+      "origin": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/index.json",
+      "tags": [
+        "minecraft-1.16.5",
+        "modloder-forge"
+      ]
+    },
+    "resources": {
+      "background": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-building-background.png",
+      "icon": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-building-icon.png",
+      "logo": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-building-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-building-thumbnail.png"
+    },
+    "versions": {
+      "forge": "36.2.41",
+      "minecraft": "1.16.5"
+    }
+  },
+  "scheme": "2024.3"
+}

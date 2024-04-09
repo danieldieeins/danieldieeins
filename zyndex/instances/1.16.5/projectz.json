@@ -3,20 +3,26 @@
     "info": {
       "author": "nerotvlive",
       "description": "ProjectZ mit erweiterten Building-Tools",
-      "name": "ProjectZ Building",
+      "name": "ProjectZ (Mirror)",
       "version": "2024.4-beta.3"
     },
     "meta": {
-      "download": "https://drive.zyneonstudios.com/index.php/s/dXYdd42Sn3pGCwK/download",
+      "download": "https://www.dropbox.com/scl/fi/ab1okol4le7fvrefjlm59/projectz-normal.zip?rlkey=5dpy48tnc62s11peu9v4t84yj&dl=1",
       "forgeType": "NEW",
       "id": "nerodex-projectz",
-      "isHidden": true,
-      "location": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances//1.16.5/projectz.json",
+      "isHidden": false,
+      "location": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances/1.16.5/projectz.json",
       "origin": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/index.json",
       "tags": [
         "minecraft-1.16.5",
         "modloder-forge"
       ]
+    },
+    "resources": {
+      "background": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-mirror-background.png",
+      "icon": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-mirror-icon.png",
+      "logo": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-mirror-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/assets/projectz-mirror-thumbnail.png"
     },
     "versions": {
       "forge": "36.2.41",

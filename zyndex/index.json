@@ -1,9 +1,10 @@
 {
-  "name": "Zyndex",
+  "name": "NerodEX",
   "url": "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/index.json",
   "owner": "nerotvlive",
   "instances": [
     "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances/1.12.2/cinematica.json",
-    "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances/1.16.5/projectz.json"
+    "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances/1.16.5/projectz.json",
+    "https://raw.githubusercontent.com/danieldieeins/danieldieeins/main/zyndex/instances/1.16.5/projectz-building.json"
   ]
 }
