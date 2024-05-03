@@ -1,0 +1,10 @@
+<script>
+    function r() {
+        const urlParams = new URLSearchParams(location.search);
+        if(urlParams.get("r")!==null) {
+            location.href = "404.html?r="+urlParams.get("r");
+            return;
+        }
+        location.href = "404.html";
+    } r();
+</script>
